@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Selamat datang di my mini quiz")
+st.title("- WELCOME TO MY MINI QUIZ -")
 
 image = Image.open("fael.jpg")
 st.image(image, width=200)
@@ -13,7 +13,7 @@ st.write("_________________________________")
 user = st.text_input("Masukan nama anda")
 
 st.write("Selamat datang" + " " + user + "!")
-st.write("**Jawab pertanyaan di bawah ini dengan benar!**")
+st.write("**Jawablah pertanyaan di bawah ini dengan benar!**")
 
 score = 0
 
